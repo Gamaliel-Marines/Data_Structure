@@ -1,8 +1,8 @@
 // =================================================================
 //
 // File: activity.h
-// Author:
-// Date:
+// Author: Gamaliel Marines Olver
+// Date: 23 Agosto 2022
 //
 // =================================================================
 #ifndef ACTIVITY_H
@@ -16,8 +16,15 @@
 // @return	The result of the addition from 1 to n.
 // @Complexity	??
 // =================================================================
-unsigned int sumaIterativa(unsigned int n) {
-	return 0;
+unsigned int sumaIterativa(unsigned int n)
+{
+    int sumando = 0;
+    for(int i = 0; i < n +1; i++)
+    {
+        sumando += i;
+    }
+    return sumando;
+
 }
 
 // =================================================================
@@ -28,8 +35,17 @@ unsigned int sumaIterativa(unsigned int n) {
 // @return	The result of the addition from 1 to n.
 // @Complexity	??
 // =================================================================
-unsigned int sumaRecursiva(unsigned int n) {
-	return 0;
+unsigned int sumaRecursiva(unsigned int n)
+{
+    if(n == 0)
+    {
+        return 0;
+    } 
+
+    else
+    {
+        return n + suma_r(n-1);
+    }
 }
 
 // =================================================================
