@@ -44,7 +44,7 @@ unsigned int sumaRecursiva(unsigned int n)
 
     else
     {
-        return n + suma_r(n-1);
+        return n + sumaRecursiva(n-1);
     }
 }
 
