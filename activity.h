@@ -15,7 +15,7 @@
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(n)
-// -
+// - tiene un ciclo for, la variable de control se suma constante.
 // =================================================================
 unsigned int sumaIterativa(unsigned int n)
 {
@@ -35,7 +35,7 @@ unsigned int sumaIterativa(unsigned int n)
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(n)
-// -
+// - una sola llamada recursiva en ejecución y su parámetro de control se disminuye o incrementa en un valor constante
 // =================================================================
 unsigned int sumaRecursiva(unsigned int n)
 {
@@ -57,7 +57,7 @@ unsigned int sumaRecursiva(unsigned int n)
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(1)
-// -
+// es una sentencia simple
 // =================================================================
 
 unsigned int sumaDirecta(unsigned int n) {
