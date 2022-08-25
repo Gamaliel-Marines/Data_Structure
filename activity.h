@@ -65,6 +65,6 @@ unsigned int sumaDirecta(unsigned int n) {
 
 	return sum;
 }
-}
+
 
 #endif /* ACTIVITY_H */
