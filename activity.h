@@ -15,7 +15,7 @@
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(n)
-// - tiene un ciclo for, la variable de control se suma constante.
+// - tiene un ciclo for (el tamano n forme parte del limites del ciclo), la variable de control se suma constante.
 // =================================================================
 unsigned int sumaIterativa(unsigned int n)
 {
